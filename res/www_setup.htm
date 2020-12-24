@@ -1,0 +1,35 @@
+<form action="/setup.ps3" method="get" enctype="application/x-www-form-urlencoded" target="_self"><font face="Courier New">
+
+<input id="xmbi" name="xmbi" type="checkbox" value="xmbi"/> XMB Integration<br>
+<input id="auto" name="auto" type="checkbox" value="auto" /> Check for /dev_hdd0/PS3ISO/AUTOBOOT.ISO<br>
+<input id="refr" name="refr" type="checkbox" value="refr"/> Disable startup scan<br>
+<input id="ftpd" name="ftpd" type="checkbox" value="ftpd" /> Disable FTP server<br>
+<input id="flsh" name="flsh" type="checkbox" value="flsh" /> Disable flash write access<br>
+<input id="sfo"  name="sfo" type="checkbox"  value="sfo"  /> Use filenames for game titles<br>
+<input id="focus" name="focus" type="checkbox" value="focus" /> Do not focus on disc icon in XMB<br>
+
+<hr color="#0099FF"/><table width="640" border="0" cellspacing="2" cellpadding="0"><tr class="propfont"><td width="320">
+
+<input id="fanc" name="fanc" type="checkbox" value="fanc"/> Enable dynamic fan control</td><td>
+<input id="warn" name="warn" type="checkbox" value="1" /> Disable temperature warnings</td></tr>
+
+<tr class="propfont"><td>
+
+<input id="t_0" type="radio" name="temp" value="0"/> Auto at <input id="step" name="step" type="text" value="" size="3" maxlength="2" /> °C</td><td>
+
+<input id="t_2" type="checkbox" disabled="disabled"/> Lowest: <input id="mfan" name="mfan" type="text" value="" size="3" maxlength="2" /> % fan speed</td></tr><tr class="propfont"><td>
+
+<input id="t_1" type="radio" name="temp" value="1"/> Manual: <input id="manu" name="manu" type="text" value="" size="3" maxlength="2" /> % fan speed</td><td>PS2 Emulator: <input id="fsp0" name="fsp0" type="text" value="" size="3" maxlength="2" /> % fan speed</td></tr></table><hr color="#0099FF"/><input id="nd1" name="nd1" type="checkbox" value="netd0"/> LAN titles&nbsp;&nbsp; PS3NETSRV#1 IP:<input id="neth0" name="neth0" type="text" value="" size="20" maxlength="15" />:<input id="netp0" name="netp0" type="text" value="" size="8" maxlength="5" /><br>
+<input id="nd2" name="nd2" type="checkbox" value="netd1" /> LAN titles&nbsp;&nbsp; PS3NETSRV#2 IP:<input id="neth1" name="neth1" type="text" value="" size="20" maxlength="15" />:<input id="netp1" name="netp1" type="text" value="" size="8" maxlength="5" />
+<hr color="#0099FF"/><b><u>XMB/In-Game PAD SHORTCUTS:</u></b><br>
+<table width="640" border="0" cellspacing="2" cellpadding="0"><tr><td width="320">
+<input id="c1" name="c1" type="checkbox" value="failsaf" /> FAIL SAFE: <b>SELECT+L3+L2+R2</b><br>
+<input id="c2" name="c2" type="checkbox" value="showtem"/> SHOW TEMP: <b>SELECT+R3</b><br>
+<input id="c3" name="c3" type="checkbox" value="prevgam"/> PREV GAME: <b>SELECT+L1</b><br>
+<input id="c4" name="c4" type="checkbox" value="nextgam"/> NEXT GAME: <b>SELECT+R1</b></td>
+<td width="320">
+<input id="c5" name="c5" type="checkbox" value="shutdow" /> SHUTDOWN : <b>L3+R2+X</b><br>
+<input id="c6" name="c6" type="checkbox" value="restart" /> RESTART&nbsp; : <b>L3+R2+O</b><br>
+<input id="c7" name="c7" type="checkbox" value="unloadw"/> UNLOAD SM: <b>L3+R2+R3</b><br>
+<input id="c8" name="c8" type="checkbox" value="manualf" /> FAN CNTRL: <b>SELECT+UP/DOWN</b>
+</td></tr></table><hr color="#FF0000"/><input name="save" type="submit" value="Save"/></font></form>

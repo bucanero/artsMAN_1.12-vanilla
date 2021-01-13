@@ -1,4 +1,4 @@
-# artsMAN_1.12-vanilla
+# artsMAN_1.12-vanilla (unfinished)
 modified sMAN with ArtemisPS3+PS3MAPI added
 
 - added PS3MAPI-Gui (only VSH Plugins and Process Plugins)
